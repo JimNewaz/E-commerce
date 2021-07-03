@@ -1,0 +1,27 @@
+[08-Apr-2021 10:02:57 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 196
+[08-Apr-2021 10:02:58 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 196
+[08-Apr-2021 10:03:11 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 196
+[08-Apr-2021 10:03:13 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 196
+[10-Apr-2021 16:38:13 Europe/London] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ')' in /home/gamesto1/public_html/admin/removeimg1.php on line 25
+[10-Apr-2021 16:38:20 Europe/London] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ')' in /home/gamesto1/public_html/admin/removeimg1.php on line 25
+[12-Apr-2021 08:47:06 Europe/London] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gamesto1/public_html/admin/feedback.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gamesto1/public_html/admin/feedback.php on line 21
+[12-Apr-2021 08:47:08 Europe/London] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gamesto1/public_html/admin/feedback.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gamesto1/public_html/admin/feedback.php on line 21
+[12-Apr-2021 09:33:23 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/gamesto1/public_html/admin/feedback.php on line 82
+[12-Apr-2021 09:33:31 Europe/London] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/gamesto1/public_html/admin/feedback.php on line 82
+[12-Apr-2021 09:36:28 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 133
+[12-Apr-2021 09:36:30 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 133
+[12-Apr-2021 09:36:32 Europe/London] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/gamesto1/public_html/admin/feedback.php on line 133
+[25-Jun-2021 15:27:37 Europe/London] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home/gamesto1/softlysoftware.co.uk/admin/vendor/phpmailer/phpmailer/src/PHPMailer.php:2146
+Stack trace:
+#0 /home/gamesto1/softlysoftware.co.uk/admin/vendor/phpmailer/phpmailer/src/PHPMailer.php(1957): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/gamesto1/softlysoftware.co.uk/admin/vendor/phpmailer/phpmailer/src/PHPMailer.php(1635): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Fri, 25 J...', 'Order Status:Se...')
+#2 /home/gamesto1/softlysoftware.co.uk/admin/vendor/phpmailer/phpmailer/src/PHPMailer.php(1468): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/gamesto1/softlysoftware.co.uk/admin/updateorder.php(52): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/gamesto1/softlysoftware.co.uk/admin/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2146
