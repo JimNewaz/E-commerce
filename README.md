@@ -6,7 +6,7 @@ Admin:
 Username & Password: 
 1) Remove md5 from index.php
 2) Then input a username and password in the admin datatable
-3) Use this to login as a admin
+3) Use this to login as an admin
 
 Else 
 Register a new admin
